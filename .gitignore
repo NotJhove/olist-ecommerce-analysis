@@ -1,0 +1,40 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Raw source datasets (available on Kaggle)
+data/raw/
+
+# Large processed copies of source datasets
+data/processed/customers.csv
+data/processed/geolocation.csv
+data/processed/orders.csv
+data/processed/order_items.csv
+data/processed/payments.csv
+data/processed/products.csv
+data/processed/reviews.csv
+data/processed/sellers.csv
+
+# Review text export used for local analysis
+data/processed/review_comments_for_analysis.csv
